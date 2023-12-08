@@ -1,3 +1,19 @@
+# 基于autoscaler 我们进行了二次开发主要内容包括 
+
+## 使用多头注意力来融合在不同时间粒度中的三支决策(立即伸缩、延迟伸缩、拒绝伸缩），该模型目前在Google Cluster Trace 2019进行实验，效果良好。
+
+文章：
+
+## 模型更新是一个大问题。初步打算使用元学习来进行新数据到达后的更新
+
+
+## GPU-CPU的混合调度下的三支决策融合 
+
+
+
+
+
+
 # Autoscaler based on 3WD
 
 [![Release Charts](https://github.com/kubernetes/autoscaler/actions/workflows/release.yaml/badge.svg)](https://github.com/kubernetes/autoscaler/actions/workflows/release.yaml) [![Tests](https://github.com/kubernetes/autoscaler/actions/workflows/ci.yaml/badge.svg)](https://github.com/kubernetes/autoscaler/actions/workflows/ci.yaml) [![GoDoc Widget]][GoDoc]
